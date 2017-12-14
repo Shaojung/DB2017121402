@@ -75,10 +75,13 @@ public class FragmentA extends Fragment {
         super.onActivityCreated(savedInstanceState);
         Button btn = (Button) getActivity().findViewById(R.id.button2);
         final TextView tv = (TextView) getActivity().findViewById(R.id.textView);
+        final TextView tv2 = (TextView) getActivity().findViewById(R.id.textView2);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 tv.setText("Hello World");
+                tv2.setText("Test 123 456");
+
             }
         });
     }
