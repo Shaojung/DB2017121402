@@ -80,7 +80,7 @@ public class FragmentB extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            
+
         }
     }
 
